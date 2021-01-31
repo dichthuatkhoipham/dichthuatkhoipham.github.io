@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("download.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">TRANG CHỦ</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">BÁO GIÁ</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">DEMO</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">LIÊN HỆ</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Dịch hay và sát nghĩa</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">DỊCH THUẬT<BR> KHÔI PHẠM</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">Facebook link:https://www.facebook.com/pham.khoi.758399
+</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">BÁO GIÁ</span></h5>
+    <p>Cách tính trang được cố định bằng Font và Size chữ trên mỗi tờ như sau: </p>
+    <p>Fontchữ:Times New Roman</p>
+    <p>Size chữ là: 14px</p>
+    <p>Giá: 300 từ/80.000đ</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>Nếu chữ ít hơn 100 từ 1 trang thì chúng tôi sẽ tính giá: 40.000đ cho trang đấy</i></p>
+    </div>
+    <img src="tinhtrang.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Trong ảnh gồm:</strong> 1 trang đầy A4 và 1 trang nửa A4</p>
+    <p><strong>Tổng giá cho 2 trang như ảnh là:</strong> 240.000đ</p>
+    <p><strong>Sau khi quý khách chuyển khoản trước 50% chúng tôi sẽ nhận đơn của quý khách và thông báo thời gian dịch cho quý khách.</strong></p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">DEMO</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Tiếng Việt</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Tiếng Anh</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <P>Có thể chúng ta đã từng sợ hãi trước những thử thách cuộc đời, những kỳ thi đầu tiên, kỳ thi quan trọng, đứng giữa những lựa chọn làm nên bứt phá bản thân hay thất bại, chúng ta sợ rất nhiều thứ nhưng chỉ cần có lòng dũng cảm không có gì là khó khăn cả. Nếu như cứ sợ hãi, bạn sẽ bị chi phối bởi điều tất yếu, cái xấu làm cho khả năng bản thân ngày càng thui chột đi, bị xã hội đào tạo thành những cỗ máy chỉ biết thuận theo ý kiến người khác khi không có lòng dũng cảm. Trước những kẻ xấu, nếu không có lòng dũng cảm, bạn sẽ bị chúng đe dọa, làm tổn thương đến tinh thần, tài sản thậm chí là cả tính mạng. Sợ hãi là kẻ thù của con người nên muốn thắng nó, hãy tôi luyện lòng dũng cảm để vượt qua khó khăn. Chỉ có vậy những điều xấu xa trong cuộc đời mới có thể thuyên giảm, nếu chúng ta cứ tảng lờ mọi chuyện, cho rằng đó không phải chuyện của mình, không có sự dũng cảm đấu tranh với tiêu cực thì hôm nay là người khác gánh chịu, mai sau sẽ là chúng ta gánh chịu.</P>
+
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <P>We might used to afraid of the challenges of life, our very first exam, the most important test, standing in the midst of choices that make ourselves break out or fail, We get held back by many things but just having courage everything wouldn't be difficult at all. If you are afraid, you will be dominated by the inevitable, the bad that makes your ability to diminish more and more, being trained by society to become machines that only follow other people's opinions when we without bravery. In the faces of bad guys, if you don't have courage, you will be intimidated by them, hurting your spirit, property, or even your life. Fear is the human's enemy, so if you want to win over it, train your courage to overcome difficulties. Only then can the bad things in life be reduced, if we just ignore everything, thinking that it is not our problem, without the courage to fight against the negativity, today it might be someone else to bear,but eventually we will suffer tomorrow.</P>
+      
+    </div>  
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">LIÊN HỆ</span></h5>
+  <div class="w3-panel w3-leftbar w3-light-grey">
+    <p><span class="w3-tag">Facebook:</span></p>
+    <a href="https://www.facebook.com/pham.khoi.758399">https://www.facebook.com/pham.khoi.758399</a>
+    <p><span class="w3-tag">Thông tin chuyển khoản:</span></p>
+    <p>Số tài khoản:060085139854</p>
+    <p>Ngân hàng:Sacombank</p>
+    <p>Người thụ hưởng:NGUYEN VAN BINH</p>
+  </div>
+    <form action="/action_page.php" target="_blank">
+      <a href="https://www.facebook.com/pham.khoi.758399" title=""><p><button class="w3-button w3-black" type="button">LIÊN HỆ FACEBOOK</button></p></a>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">Khoi Pham</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
